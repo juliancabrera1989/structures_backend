@@ -1,0 +1,17 @@
+# POST http://localhost:5000/api/posts
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjdkOGZkMDU2YTdlNjIyMGRmMGQ5NyIsInVzZXJuYW1lIjoiam9yZ2VydWl6MyIsImVtYWlsIjoiam9yZ2VydWl6MkBnbWFpbC5jb20iLCJpYXQiOjE3NTg5NjAzNDcsImV4cCI6MTc1ODk2MDY0N30.1K2GEfZJD8OzPHKTzUMfgo-D4_1TnaBdi-lSscSYMNw
+# Content-Type: application/json
+
+# {
+#   "title": "My test post",
+#   "content": "Hello world"
+# }
+
+
+POST http://localhost:5000/api/posts/68d789cd8022bc67d08a2d3d/comments
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjdkOGZkMDU2YTdlNjIyMGRmMGQ5NyIsInVzZXJuYW1lIjoiam9yZ2VydWl6MyIsImVtYWlsIjoiam9yZ2VydWl6MkBnbWFpbC5jb20iLCJpYXQiOjE3NTkwMjQwMzIsImV4cCI6MTc1OTAyNDMzMn0.46F5RiI5-Szfeij16xnjm0dUAjggLUwROAqmLR_JB3M
+Content-Type: application/json
+
+{
+  "content" : "no se que poner jaja"
+}
